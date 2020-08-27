@@ -1,0 +1,16 @@
+.header{
+    background-color: cornsilk;
+    font-size: 30pt;
+    padding: 2em;
+}
+
+.background{
+    background-color: lightsalmon;
+    padding: 10em;
+}
+
+.footer{
+    background-color: lightskyblue;
+    font-size: 30pt;
+    padding: .5em;
+}
