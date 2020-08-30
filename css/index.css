@@ -8,11 +8,11 @@ body {
   margin: 0;
 }
 
-.frontend-side {
+.side-tutor {
   background-image: url("https://images.pexels.com/photos/4145196/pexels-photo-4145196.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 }
 
-.uiux-side {
+.side-alumno {
   background-image: url("https://images.pexels.com/photos/1462631/pexels-photo-1462631.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 }
 
@@ -25,17 +25,17 @@ body {
   width: 50%;
   min-height: 9em;
   font-size: 2em;
-  color: #DFF2EB;
+  color: #dff2eb;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   padding: 0;
 }
 
-.split-pane.uiux-side{
-    float: left;
+.split-pane.side-alumno {
+  float: left;
 }
-.split-pane.frontend-side{
-    float: left;
+.split-pane.side-tutor {
+  float: left;
 }
 
 @media (min-width: 500px) {
@@ -66,11 +66,11 @@ body {
     display: none;
   }
 }
-.split-pane button,
-.split-pane a.button {
+.split-pane a.button-alumno,
+.split-pane a.button-tutor {
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
-  background: #DFF2EB;
+  background: #dff2eb;
   border: 0cm;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -83,24 +83,22 @@ body {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   text-decoration: none;
-  color: #000;
+  color: black;
   display: inline-block;
   cursor: pointer;
 }
-.split-pane button:hover,
-.split-pane a.button:hover {
+.split-pane a.button-alumno:hover,
+.split-pane a.button-tutor:hover {
   text-decoration: none;
   background-color: white;
   border-color: white;
   cursor: pointer;
 }
-.uiux-side.split-pane button:hover,
-.split-pane a.button:hover {
-  color: #F28729;
+a.button-alumno:hover {
+  color: #f28729;
 }
-.frontend-side.split-pane button:hover,
-.split-pane a.button:hover {
-  color: #0540F2;
+a.button-tutor:hover {
+  color: #0540f2;
 }
 
 #split-pane-or {
